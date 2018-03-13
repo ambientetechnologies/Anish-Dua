@@ -9,16 +9,6 @@
 	margin:0 auto;
 
 }
-#transparent{
-	color:white;
-	/* position: absolute; */
-	top:35%;
-	left:40%;
-	text-align: center;
-	height:150px;
-	width:300px;
-	background-color: rgba(0,0,0,0.3);
-}
 #intro.btn{
 	padding:15px !important;
 }
@@ -83,9 +73,6 @@
 	color:white;
 
 }
-@media only screen
-and (min-device-width : 1024px)
-and (max-device-width : 1366px) { /* STYLES GO HERE */}
 @media(max-width:768px)
 {body{
 
@@ -94,9 +81,11 @@ and (max-device-width : 1366px) { /* STYLES GO HERE */}
 	 }
 	 .left{
 		  background-size: contain;
-			height:60vh;
+			margin: 0
+			height:50vh;
 		}
 	.right{
+		margin: 0;
 		height: 50vh;
 		background-size:100%;
 	}
